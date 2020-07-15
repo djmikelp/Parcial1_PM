@@ -16,4 +16,14 @@ class Login_model extends CI_model
         return false;
       }
     }
+    public function get_identificador($ci)
+    {
+      $query=$this->db->query("Select * from identificador where ci='$ci'");
+  		return $query->row_array();
+    }
+    public function get_usuario($ci)
+    {
+      $query=$this->db->query("Select * from usuario where ci='$ci'");
+  		return $query->row_array();
+    }
 }
