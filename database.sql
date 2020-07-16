@@ -27,9 +27,9 @@ insert into identificador values('6840841','Miguel Angel Pozo Morales','1989-01-
 insert into identificador values('7547891','Pepito Flores Flini','1990-05-02','co');
 insert into identificador values('9874566','Juancito Pinto Belini','2000-12-24','sz');
 
-insert into usuario values('123456', '6840841', '#a3c323','foto1.jpg');
-insert into usuario values('1234567', '7547891', '#58d19e','foto2.jpg');
-insert into usuario values('12345678', '9874566', '#3811f4','foto3.jpg');
+insert into usuario values('123456', '6840841', '#a3c323','fotos/foto1.jpg');
+insert into usuario values('1234567', '7547891', '#58d19e','fotos/foto2.jpg');
+insert into usuario values('12345678', '9874566', '#3811f4','fotos/foto3.jpg');
 
 insert into notas values('6840841','inf-111',80);
 insert into notas values('6840841','inf-112',90);

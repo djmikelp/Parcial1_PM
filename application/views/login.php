@@ -4,8 +4,6 @@
         <div class="form-element">
             <label>C.I.</label>
             <input type="text" name="ci" pattern="[a-zA-Z0-9]+" required />
-        </div>
-        <div class="form-element">
             <label>Clave</label>
             <input type="password" name="clave" required />
         </div>

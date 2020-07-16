@@ -28,10 +28,12 @@ public function __construct()
 				$this->load->view('header', $datos);
 				$this->load->view('Bienvenida');
 				$this->load->view('footer');
+
 			}else {
 				redirect('Login_Controller');
 			}
 		}
 	}
+
 
 }
