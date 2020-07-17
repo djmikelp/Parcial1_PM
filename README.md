@@ -1,4 +1,4 @@
 # Parcial1_PM
 Examen 1er Parcial
 ------------------
-importar la base de datos "academico.sql" dentro de phpmyadmin;
+importar la base de datos "academico.sql" dentro de phpmyadmin para un correcto funcionamiento.
