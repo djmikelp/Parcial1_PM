@@ -3,6 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Pregunta 2</title>
+    <style>
+  table, td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    padding: 15px;
+  }
+  </style>
   </head>
   <body>
     <?php
