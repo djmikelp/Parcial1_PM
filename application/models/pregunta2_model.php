@@ -15,6 +15,6 @@ class pregunta2_model extends CI_model
 FROM notas n ,identificador i
 WHERE n.nota>51 and n.ci=i.ci
 group by i.lugarresi");
-      return $query->row_array();
+      return $query->result_array();
     }
 }
